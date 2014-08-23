@@ -1,0 +1,521 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- General strings -->
+  <string name="Hello">Hello World, Click Me!</string>
+  <string name="ApplicationName">laffoutloud</string>
+  
+  <!-- photo -->
+  <string name="photoTitle">Smile please!</string>
+  <string name="photoNoConnection">Unable to connect to the camera, sorry.</string>
+  
+  <!-- gallery -->
+  <string name="imageGalleryTitle">Gallery</string>
+  <string name="imageGalleryMemoryError">Your device seems to be out of memory - ouch!</string>
+  <string name="imageGalleryCreating">Creating gallery</string>
+  <string name="imageGalleryCreatingSoon">Shouldn\'t be too long</string>
+
+  <!-- common messages -->
+  <string name="commonFacebookHeaderView">FACEBOOK</string>
+  <string name="commonTwitterHeaderView">TWITTER</string>
+  <string name="commonLinkedInHeaderView">LINKEDIN</string>
+  <string name="commonGooglePlusHeaderView">GOOGLE+</string>
+  <string name="commonYouTubeHeaderView">YOUTUBE</string>
+  <string name="commonOK">OK</string>
+  <string name="commonCancel">Cancel</string>
+  <string name="commonFirstName">First name:</string>
+  <string name="commonLastName">Last name:</string>
+  <string name="commonEmailAddress">Email address:</string>
+  <string name="commonPhoneNumber">Phone number:</string>
+  <string name="commonContinue">Continue</string>
+  <string name="commonPassword">Password:</string>
+  <string name="commonLogin">Login</string>
+  <string name="CommomReset">Reset</string>
+  <string name="commonNever">Never</string>
+  <string name="commonCreate">Create</string>
+  <string name="commonTryAgain">Try again</string>
+  <string name="commonLoading">Loading...</string>
+  <string name="commonContinue.Caps">CONTINUE</string>
+  <string name="commonLogout">Logout</string>
+  <string name="commonError">Error</string>
+  <string name="commonConnecting">Connecting...</string>
+  <string name="commonLoggingOut">Logging out...</string>
+  <string name="commonProgressText">{0} of {1}</string>
+  <string name="commonNoResults">No Results</string>
+  <string name="commonLoggingIn">Logging in...</string>
+  <string name="commonAdd">Add</string>
+  <string name="commonBack">Back</string>
+  <string name="commonSend">Send</string>
+  <string name="commonSendingMessage">Sending message...</string>
+  <string name="commonOneSec">Won\'t be a moment...</string>
+  <string name="commonDone">Done</string>
+  <string name="commonReply">Reply</string>
+  <string name="commonReplyAll">Reply All</string>
+  <string name="commonForward">Forward</string>
+  <string name="commonSpeak">Speak</string>
+  <string name="commonPreparing">Preparing...</string>
+  <string name="commonRetrievingPollResults">Retrieving your poll results</string>
+  <string name="commonHangOn">Hang on there!</string>
+  <string name="commonTotalVotesFormat">Total votes cast : {0}</string>
+  <string name="commonVoting">Voting on your poll</string>
+  <string name="commonVotingWait">Just a sec...</string>
+
+  <!-- main -->
+  <string name="mainTitle">Welcome!</string>
+
+  <!-- misc -->
+  <string name="contactGeneral">Contact name n stuff</string>
+  
+  <!-- poll -->
+  <string name="pollRetrieveResults">Retrieving poll results</string>
+  <string name="pollPolite">Won\'t be a moment...</string>
+
+  <!-- get connected -->
+  <string name="getconnectedTitle">Get Connected</string>
+  <string name="getconnectedFB">Get Facebook friends</string>
+  <string name="getconnectedGoogle">Get Google+ friends</string>
+  <string name="getconnectedLinkedIn">Get LinkedIn friends</string>
+  <string name="getconnectedContinue">Continue</string>
+  
+  <!-- Login messages -->
+  <string name="loginExistingUser">Existing User</string>
+  <string name="loginNewUser">New User</string>
+  <string name="loginSubHeader">LAFF OUT LOUD!</string>
+  <string name="loginHeader">LOGIN</string>
+  <string name="loginRegistration">REGISTRATION</string>
+  <string name="loginUserSubHeader">something!</string>
+  <string name="loginNewUserHeader">REGISTER</string>
+  <string name="loginSignupFacebook">FACEBOOK</string>
+  <string name="loginEmailFacebook">Email:</string>
+  <string name="loginEmail">Email address</string>
+  <string name="loginPassword">Password</string>
+  <string name="loginLogin">Login</string>
+  <string name="loginCancel">Cancel</string>
+  <string name="loginForgotPassword">Forgotten password</string>
+  <string name="loginRegisteringUser">Registering new user</string>
+  <string name="loginLoggingIn">Logging you in</string>
+  <string name="loginRegistrationMessage">Registering now... The speed depends on your upload connection.</string>
+  <string name="loginAuthError">Authentication error</string>
+  <string name="loginAuthGood">Authorisation complete</string>
+  
+  <!-- misc buttons -->
+  <string name="btnCancel">Cancel</string>
+  
+  <!-- logout messages -->
+
+  <string name="logoutTitle">Logout</string>
+  <string name="logoutMessage">If you logout, you will not be receive notification of new messages until you log back in</string>
+  <string name="logoutOpt1">Logout and clear history</string>
+  <string name="logoutOpt2">Logout</string>
+  <string name="logoutOpt3">Cancel</string>
+  <string name="logoutOutMessage">Logging out and exiting. See you later!</string>
+
+  <!-- Forgotten password -->
+  <string name="forgotPasswordMessage">We can\'t blame you, we forget our all the time too! Enter your email address below and we\'ll send you a reset code</string>
+  <string name="forgotPassword">Forgotten password</string>
+  <string name="forgotReset">Reset</string>
+  <string name="forgotSent">The reset code for your account has been sent to your email address. Please follow the directions given to reset it</string>
+  <string name="forgotNotSent">The reset code has not been sent. Please try again.</string>
+
+  <!-- test messages -->
+  <string name="messageTestTextChat">Hello. Why yes i would like to go riding with you.</string>
+  <string name="messageFakeChat">Yes, I do have a wagon</string>
+  <string name="messageFakeChatText">Y hello thar</string>
+
+  <!-- alerts -->
+  <string name="alertViewTitleEmailAddress">Email Address</string>
+  <string name="alertViewMessageNotValidEmailAddress">Entered text is not a valid email address!</string>
+  <string name="alertViewMessageEmailAddressEmpty">Please enter an email address.</string>
+  <string name="alertViewTitleFirstNameEmpty">First Name Empty</string>
+  <string name="alertViewMessageFirstNameEmpty">Please enter your first name.</string>
+  <string name="alertViewTitleLastNameEmpty">Last Name Empty</string>
+  <string name="alertViewMessageLastNameEmpty">Please enter your last name.</string>
+  <string name="alertViewMessageFirstAndLastNameTwoChars">Please enter at least 2 characters either in the First name or Last name field.</string>
+  <string name="alertViewTitleAccountExists">Account Exists</string>
+  <string name="alertViewMessageAccountExists">An account with this email address already exists.</string>
+  <string name="alertViewTitlePasswordEmpty">Password Empty</string>
+  <string name="alertViewEmailEmpty">Email address empty</string>
+  <string name="alertViewEmailInvalid">Email address is invalid</string>
+  <string name="alertViewMessagePasswordEmpty">Please enter a password.</string>
+  <string name="alertViewMessagePasswordFieldsEmpty">Please enter your new password in both fields.</string>
+  <string name="alertViewTitlePasswordsMismatch">Passwords Don\'t Match</string>
+  <string name="alertViewMessagePasswordsMismatch">Please enter the same password in both fields.</string>
+  <string name="alertViewTitleFieldsEmpty">Empty Fields</string>
+  <string name="alertViewTitleFieldEmpty">Empty Field</string>
+  <string name="alertViewMessageTextMessageEmpty">No message entered!</string>
+  <string name="alertViewTitleConnectionProblem">Connection Problem</string>
+  <string name="alertViewMessageConnectionProblemFormat">There was a problem communicating with {0}. Please try again in a few minutes.</string>
+  <string name="alertViewMessageConnectionProblem">Connection problem. Please try again in a few minutes.</string>
+  <string name="alertViewTitleUserCancelledAccess">User Cancelled</string>
+  <string name="alertViewMessageUserCancelledAccessFormat">Please allow LOL access to {0} in order to login.</string>
+  <string name="alertViewTitleAccessTokenProblem">Access Token Problem</string>
+  <string name="alertViewMessageAccessTokenProblem">There was a problem receiving an access token. Please try again in a few minutes.</string>
+  <string name="alertViewMessageLogout">If you log out, you will not receive notification of new messages until you log back in.</string>
+  <string name="alertViewButtonLogoutAndClearHistory">Logout and clear history</string>
+  <string name="alertViewMessageLogoutFailed">Failed to log out.</string>
+  <string name="alertViewTitleNotSupported">Not Supported</string>
+  <string name="alertViewMessageInviteUsersNotSupportedFormat">Inviting users from {0} is not yet supported!</string>
+  <string name="alertViewTitleNoSelection">No Selection</string>
+  <string name="alertViewNothingSelected">Nothing selected</string>
+  <string name="alertViewMessageNoContactSelected">No contact(s) selected. Please select at least one contact.</string>
+  <string name="alertViewMessageNoContentPackItemSelectedFormat">No {0} item selected.</string>
+  <string name="alertViewMessageNoContentSelected">Please select content for your message.</string>
+  <string name="alertViewTitlePreviewComicon">Preview Comicon</string>
+  <string name="alertViewMessageUnableToPlayItem">Unable to play this item.</string>
+  <string name="alertViewTitleMessagePlayback">Message Playback</string>
+  <string name="alertViewUserCancelledAuth">User cancelled authorisation</string>
+  <string name="alertViewSenderNotContact">Sender Is Not In Contact List</string>
+  <string name="alertViewSenderNotContactFormat">{0} is not in your contact list. Would you like to add now?</string>
+
+  <!-- error messages -->
+  <string name="errorAudioProblemTitle">Audio player error</string>
+  <string name="errorVideoProblemTitle">Video error</string>
+  <string name="errorNotLoggedIn">Lol user has not been logged in</string>
+  <string name="errorNoGetDeviceID">You have not set GetDeviceId with a context</string>
+  <string name="errorEmptyFilename">No filename has been passed for playing</string>
+  <string name="errorPlayingFile">An error occurred playing the file. Please report this fault</string>
+  <string name="errorPlayingURL">An error occurred playing the URL. Please report this fault</string>
+  <string name="errorEmptyURL">No URL has been passed to the player</string>
+  <string name="errorNetFault">No network available</string>
+  <string name="errorNoVideo">The URL for the video has not been passed</string>
+  <string name="errorVideoFault">An error has occurred while playing the video stream</string>
+  <string name="errorNoCamera">No camera found</string>
+  <string name="errorNoPreview">An error has occurred while previewing the picture</string>
+  <string name="errorFileTransfer">An error has occurred while transfering the picture</string>
+  <string name="errorNoImagesFound">No images found on the phone</string>
+  <string name="errorNoImagesTaken">Error storing image. It has not been saved.</string>
+  <string name="errorNoSignUp">Unable to signup using given details</string>
+  <string name="errorStoreEXIF">An error has occurred storing the EXIF metadata</string>
+  <string name="errorNoImage">No image has been captured</string>
+  <string name="errorDeviceType">Device type not found</string>
+  <string name="errorLoginFailed">Login failed. Please check your details.</string>
+  <string name="errorAuthError">Error getting service auth token!</string>
+  <string name="errorMessageSendFail">The text message was unable to be sent</string>
+  <string name="errorUnableDetails">Unable to get your details. Please try again later</string>
+  <string name="errorUserCreationFailed">User creation failed.</string>
+  <string name="errorUserLoginFailed">User login failed.</string>
+  <string name="errorAuthenticatingUserWithLOL">Authenticating user with LOL failed.</string>
+  <string name="errorSearchingContactsFailed">Searching for selected contacts in LOL failed.</string>
+  <string name="errorSearchingContactsByCriteria">Failed to search for contact.</string>
+  <string name="errorSendingInvitations">Sending invitations failed.</string>
+  <string name="errorSavingContacts">Save contacts failed.</string>
+  <string name="errorSavingContactFormat">Failed to save contact {0}.</string>
+  <string name="errorDeletingContact">Failed to delete contact.</string>
+  <string name="errorRefreshingAccessTokenFormat">Failed to refresh access token for {0}.</string>
+  <string name="errorDownloadingFriendsFormat">Failed to download friends from {0}.</string>
+  <string name="errorDownloadingContactList">Failed to download your contacts.</string>
+  <string name="errorCouldNotValidateEmailPassword">Could not validate email/password combination.</string>
+  <string name="errorRequestingPasswordResetCode">Error requesting password reset code.</string>
+  <string name="errorVerifyingPasswordResetCode">Error verifying password reset code.</string>
+  <string name="errorResettingPassword">Error reseting password.</string>
+  <string name="errorUnableToSendVerificationCode">Unable to send verification code to the provided email address.</string>
+  <string name="errorDownloadContentPacksFailedFormat">Unable to download {0} categories.</string>
+  <string name="errorDownloadContentPackItemsFailedFormat">Unable to download {0}.</string>
+  <string name="errorSendingMessage">Failed to send message.</string>
+  <string name="errorEmailInvalid">Email address invalid</string>
+  <string name="errorFirstLastTooShort">The first or last name has less than 2 characters</string>
+  <string name="errorUnableToPlayItem">LOL was unable to play that item</string>
+  <string name="errorNothingSelected">Nothing selected</string>
+  <string name="errorMessageExceptionSending">Exception sending message!</string>
+  <string name="errorNothingToPlay">There was nothing attached to that poll</string>
+  <string name="errorNoPollQuestion">No question has been associated with your poll</string>
+  <string name="errorNumberofPollOptions">You have too few options for your poll. Please add some more</string>
+  <string name="errorNumberOfPhotoPollImages">You have too few images for the photo poll. Please add some more!</string>
+  <string name="errorException">Exception sending message!</string>
+  <string name="errorNoVoiceFound">No voice recording has been found</string>
+  <string name="errorDownloadContactPackFormat">Error downloading content pack items! {0}</string>
+  <string name="errorCouldNotGetUserInfoFormat">Could not retrieve your information from {0}</string>
+  <string name="errorUserCreation">User creation error</string>
+  <string name="errorUserLoginProblem">Login problem</string>
+  
+  <!-- temp auth codes -->
+  <string name="authAccountIDNotToken">Internal - account ID not linked to token</string>
+  <string name="authNoToken">Internal - token not in database</string>
+  <string name="authTokenLoggedOut">Internal - token logged out</string>
+  <string name="authNotAuthenticated">Internal - token not authenticated</string>
+  <string name="authTokenExpired">Internal - token expired</string>
+  <string name="authNoDeviceIDSent">Internal - no device ID sent</string>
+
+  <!-- poll messages -->
+  <string name="pollCreateTitle">Create Poll</string>
+  <string name="pollPhotoTitle">Photo Poll</string>
+  <string name="pollPreviewPhotoPoll">Preview Photo Poll</string>
+  <string name="pollPreviewVote">Preview Text Vote</string>
+  <string name="pollPhotoVotePoll">Vote now!</string>
+  <string name="pollPollResults">Poll results</string>
+  <string name="pollPreviewTextPoll">Preview Text Poll</string>
+  <string name="pollTapForPicture">Tap to select photo</string>
+  <string name="pollTapForText">Tap to edit poll options</string>
+  <string name="pollTextPollTitle">Text Poll</string>
+  <string name="pollEditTextTitle">Edit Poll</string>
+  <string name="pollCreatePollMessage">Number of options?</string>
+  <string name="pollCancelButton">Cancel</string>
+  <string name="pollCreateButton">Create</string>
+  <string name="pollCancelConfirm">Are you sure you wish to cancel?</string>
+  <string name="pollAddButton">Add</string>
+  <string name="pollSendButton">Send</string>
+  <string name="pollVoteButton">Vote</string>
+  <string name="pollVoteDone">Done</string>
+  <string name="pollUploadPoll">Uploading your poll</string>
+  <string name="pollWait">Won\'t take long...</string>
+  <string name="pollGettingResults">Retrieving your poll results</string>
+  <string name="pollOption1">Option 1</string>
+  <string name="pollOption2">Option 2</string>
+  <string name="pollOption3">Option 3</string>
+  <string name="pollOption4">Option 4</string>
+
+  <string name="pollSubViewDone">Done</string>
+  <string name="pollSubViewVotesCast">Votes cast</string>
+  <string name="pollSubViewNumberVotesFormat">{0} votes</string>
+  
+  <!-- video messages -->
+  <string name="videoCloseVideo">Close</string>
+  <string name="videoStartRecording">Start recording</string>
+  <string name="videoStopRecording">Stop recording</string>
+  
+  <!-- video error messages -->
+  <string name="videoErrorTitle">Video Error</string>
+  <string name="videoFailToStart">The video recorder failed to start</string>
+  <string name="videoFailToConnect">The video camera service failed to connect</string>
+  <string name="videoFailToPlay">The video failed to playback</string>
+
+  <!-- Modal messages -->
+  <string name="modalOK">OK</string>
+  <string name="modalCancel">Cancel</string>
+
+  <!-- Camera messages -->
+  <string name="focused">Focused</string>
+
+  <!-- send message -->
+  <string name="messageTextTitle">Text Message</string>
+  <string name="messageReadTextTitle">Read Message</string>
+  <string name="messageAdd">Add</string>
+  <string name="messageSend">Send</string>
+  <string name="messageMessageSent">Message sent</string>
+
+  <!-- connected page -->
+
+  <string name="GetConnectedGET">GET</string>
+  <string name="GetConnectedCONNECTED">CONNECTED</string>
+
+  <!-- start message -->
+  <string name="startTitle">Start message</string>
+
+  <!-- animated message -->
+  <string name="animatedTitle">Animated message</string>
+  <string name="animatedMessage">Click picture to Edit / Create</string>
+  <string name="animatedAdd">Add</string>
+  <string name="animatedSend">Send</string>
+
+  <!-- reset password -->
+  <string name="resetTitle">Reset password</string>
+  <string name="resetInitialMessage">We have sent a reset code to your email address. When you receive this code, just enter it below to reset your password</string>
+  <string name="resetEmailAddress">Email address:</string>
+  <string name="resetResetCode">Reset code</string>
+  <string name="resetConfirmed">The reset code has been confirmed. Please enter your password below.</string>
+  <string name="resetPassword">Password</string>
+  <string name="resetVerifyPassword">Verify password</string>
+  <string name="resetReset">Reset</string>
+  <string name="resetCancel">Cancel</string>
+  <string name="resetLogin">Login</string>
+  <string name="resetResetting">Resetting password...</string>
+
+  <!-- create new user using LOL-->
+  <string name="createTitle">New User</string>
+  <string name="createFirstName">First name</string>
+  <string name="createSurname">Surname</string>
+  <string name="createEmail">Email address</string>
+  <string name="createPassword">Password</string>
+  <string name="createChoose">Choose</string>
+  <string name="createTakePic">Take Picture</string>
+  <string name="createRegister">REGISTER</string>
+  <string name="createCommsError">Communication error with the server. Please try again later</string>
+  <string name="createSuccess">You are now part of Laff Out Loud! Feel free to come and go.</string>
+
+  <!-- general user things -->
+  <string name="messageAuthorised">Successfully authorised</string>
+  <string name="messageFailToCreate">Failed to create a new user with the details provided... Ouch!</string>
+
+  <!-- contacts message -->
+  <string name="contactsCantFind">Unable to find that contact, sorry</string>
+  <string name="contactsSendingInvites">Sending invites to friends</string>
+  <string name="contactsErrorSendEmail">An error has occurred sending emails</string>
+  <string name="contactsAddingContact">Adding selected contacts</string>
+  <string name="contactsErrorSavingContacts">An error has occurred while saving the selected contacts</string>
+  <string name="contactsErrorDownFriends">An error has occurred while downloading your friends. Please try again later</string>
+  <string name="contactsGetFacebook">Retrieving your Facebook friends</string>
+  <string name="contactsFacebookToken">An error has occurred between us and Facebook. Please log into your Facebook account and do something</string>
+  <string name="contactsGetGoogle">Retrieving your Google+ friends</string>
+  <string name="contactsGoogleToken">An error has occurred between us and Google+. Please log into your Google+ account and do something</string>
+  <string name="contactsGetYouTube">Retrieving your YouTube friends</string>
+  <string name="contactsYouTubeToken">An error has occurred between us and YouTube. Please log into your YouTube account and do something</string>
+  <string name="contactsLinkedIn">Retrieving your LinkedIn contacts</string>
+  <string name="contactsTitle">Contacts</string>
+  <string name="contactsFinding">Finding contacts...</string>
+  <string name="contactsRefreshing">Refreshing contacts list...</string>
+  <string name="contactsPDTitle">Saving contacts</string>
+  <string name="contactsPDWait">Please wait while I do it...</string>
+  <string name="contactsNoneSelected">You have not selected any contacts to add</string>
+
+  <!-- external text -->
+  <string name="invitePBTitle">Send invites</string>
+  <string name="invitePBMessage">Sending invites to your friends. Please wait...</string>
+  <string name="inviteFacebookPostMessageFormat">I am beta testing a great new app, you should check it out online at {0}</string>
+  <string name="inviteLinkedInPostMessage">is beta testing a great new app, you should check it out!</string>
+
+  <!-- contact info -->
+  <string name="contactInfoLastMessageLabelFormat">Last Message: {0}</string>
+  <string name="contactInfoLastOnlineLabelFormat">Last Online: {0}</string>
+
+  <!-- forgotten password -->
+  <string name="passwordRecoverylblMessage">We can\'t blame you, we forget ours all the time, too! Enter your email address below and we will send you a reset code.</string>
+  <string name="passwordRecoveryTitle">FORGOTTEN PASSWORD</string>
+  <string name="passwordRecoveryAlertViewTitle">Password Recovery</string>
+  <string name="passwordRecoveryAlertViewCodeSent">Code has been sent.</string>
+  <string name="passwordRecoveryRequestingResetCode">Requesting reset code...</string>
+  <string name="passwordReset">Reset</string>
+  <string name="passwordCancel">Cancel</string>
+
+  <!-- verify code -->
+  <string name="verificationCodelblMessage">We sent a code to your email address. When you receive this code, just enter it below to reset your password.</string>
+  <string name="verificationCodelblEmailFormat">Email address: {0}</string>
+  <string name="verificationCodelblVerificationCode">Verification code:</string>
+  <string name="verificationCodeTitle">VERIFICATION CODE</string>
+  <string name="verificationCodeFieldEmpty">Verification code field is empty.</string>
+  <string name="verificationCodeSendingVerificationCode">Sending verification code...</string>
+  <string name="verificationCodeResetError">There has been an error in the verification code. Please check your entry and resubmit.</string>
+
+  <!-- compose text -->
+  <string name="composeTextMessagelblMessage">Tap inside the box to type your message or the microphone to record it.</string>
+  <string name="composeTextMessageTitle">TEXT MESSAGE</string>
+  <string name="composeTextMessageSendingTextMessage">Sending text message...</string>
+  <string name="composeTextMessageLanguageNotSupported">Language Not Supported</string>
+  <string name="composeTextMessageLanguageDeviceNotSupported">According to your device language settings, this language is not supported.</string>
+  <string name="composeTextMessage">Sending...</string>
+
+  <!-- Manage contacts -->
+  <string name="manageContactsHeaderViewTitle">MANAGE CONTACTS</string>
+  <string name="manageContactsRetrievingContacts">Retrieving contacts...</string>
+
+  <!-- polling -->
+  
+  
+  <!-- choose contacts -->
+  <string name="chooseContactsTitle">CHOOSE CONTACTS</string>
+  <string name="chooseContactsbtnCreateMessage">Create Message</string>
+
+  <!-- find contacts -->
+  <string name="findContactTitle">FIND CONTACT</string>
+  <string name="findContactbtnSearch">Search</string>
+  <string name="findContactbtnConnect">Connect Online</string>
+  <string name="findContactSearchingContact">Searching contact...</string>
+  <string name="findContactAddingContact">Adding contact...</string>
+  <string name="findContactNoContactsFound">No contacts found with the specified criteria.</string>
+  <string name="findContactPhoneNumber">Phone number</string>
+
+  <!-- choose friends -->
+  <string name="chooseFriendsTitle">CHOOSE FRIENDS</string>
+  <string name="chooseFriendslblMessage">Find your friends on LOL, quick and easy!</string>
+  <string name="chooseFriendsRetrievingContactsFormat">Retrieving contacts from {0}...</string>
+  <string name="chooseFriendsAddingSelectedContacts">Adding selected contacts...</string>
+  <string name="chooseFriendsSearchingForSelectedContacts">Searching for selected contacts...</string>
+  <string name="chooseFriendsInvitingUsers">Inviting users...</string>
+  <string name="chooseFriendsChooseFriends">Choose Friends</string>
+  <string name="chooseFriendsNoFriendsSelected">No friend(s) selected. Please select at least one friend to add as a contact.</string>
+
+  <!-- search -->
+  <string name="searchBarSearch">Search</string>
+  <string name="searchPBTitle">Search for contacts</string>
+  <string name="searchPBWait">Please wait...</string>
+  
+  <!-- edit contacts -->
+  <string name="editContactTitle">EDIT CONTACT</string>
+  <string name="editContactbtnBlock">Block</string>
+  <string name="editContactbtnUnblock">Unblock</string>
+  <string name="editContactbtnDeleteTitle">Delete</string>
+  <string name="editContactlblMessage">Contact\'s Name</string>
+  <string name="editContactUnblockContact">Unblock Contact</string>
+  <string name="editContactUnblockConfirmFormat">Are tou sure you want to unblock contact {0}?</string>
+  <string name="editContactBlockContact">Block Contact</string>
+  <string name="editContactBlockConfirmFormat">Are you sure you want to block contact {0}?</string>
+  <string name="editContactDeleteContact">Delete Contact</string>
+  <string name="editContactDeleteConfirmFormat">Are you sure you want to delete contact {0}?</string>
+  <string name="editContactBlockingContact">Blocking contact...</string>
+  <string name="editContactDeletingContact">Deleting contact...</string>
+  <string name="editContactUnblockingContact">Unblocking contact...</string>
+
+  <!-- contact selection -->
+  <string name="ContactSelectionTitle">SELECT CONTACT</string>
+
+  <!-- content packs -->
+  <string name="contentPackDownloadingContentPacksFormat">Downloading {0} categories...</string>
+  <string name="contentPackDownloadingContentPackItemsFormat">Downloading {0} items...</string>
+  <string name="contentPackDownloadWait">Won\'t be long...</string>
+  <string name="contentPackContentPackFormat">{0} CATEGORIES</string>
+  <string name="contentPackDownloadErrorFormat">Error downloading content pack items! {0}</string>
+  
+  <!-- snusnu messages -->
+  <string name="snusnuFishSticks">fishsticks</string>
+
+  <!-- message edit -->
+  <string name="messageEditTitleReadMessage">READ MESSAGE</string>
+  <string name="messageEditTitlePreviewMessage">PREVIEW MESSAGE</string>
+  <string name="messageEditTitleCreateMessage">CREATE MESSAGE</string>
+  <string name="messageEditDownloadingMessageContent">Downloading message content...</string>
+  <string name="messageEditDownloadingRecipients">Downloading recipients...</string>
+  <string name="messageEditSelectOptionBelow">Please select an option below.</string>
+  <string name="messageEditNothingToPlay">Nothing to play, sorry</string>
+  <string name="messageUploadingMessage">Uploading your voice message to the server</string>
+  <string name="messageRefreshingMessages">Refreshing messages list</string>
+  <string name="messageSendingVoiceMessage">Sending voice message...</string>
+  <string name="messageSendingMessage">Sending message...</string>
+  <string name="messageSendMessageSuccessful">Message successfully sent</string>
+  <string name="messagePleaseWait">Please wait...</string>
+  <string name="mesageCheckingForPollResponse">Checking for your poll response</string>
+  <string name="messageRefreshingContacts">Refreshing your contacts</string>
+  <string name="messageSpeakNow">Dictate your message</string>
+
+  <!-- message lists -->
+  <string name="messageListHeaderViewTitle">MESSAGE LIST</string>
+  <string name="messageNameHolder">Fred Bloggs</string>
+  <string name="messageMessageHolder">Hello shoes, I\'m sorry but I\'m going to have to stand on you again</string>
+  <string name="messageMessageNumbersHolder">({0}) messages</string>
+  <string name="messageListNumberOfMessagesFormat">({0}) messages</string>
+
+  <!-- select or preview content -->
+  <string name="selectPreviewTitleComix">SELECT COMIX</string>
+  <string name="selectPreviewTitleComicon">SELECT COMICON</string>
+  <string name="selectPreviewSoundFX">SELECT SOUNDFX</string>
+  <string name="selectPreviewEmoticons">SELECT EMOTICONS</string>
+  <string name="selectPreviewBrowseComix">Tap picture to browse Comix</string>
+  <string name="selectPreviewBrowseComicon">Tap picture to browse Comicons</string>
+  <string name="selectPreviewBrowseSoundFX">Tap picture to browse SoundFX</string>
+  <string name="selectPreviewBrowseEmoticon">Tap picture to browse Emoticons</string>
+  <string name="selectPreviewTap">Tap empty icons to add content</string>
+  <string name="selectPreviewComiconTitle">Preview Comicon</string>
+  <string name="selectPreviewEmoticonTitle">Preview Emoticon</string>
+  <string name="selectPreviewMessageTitle">Preview Message</string>
+  <string name="selectPreviewComixTitle">Preview Comix</string>
+  <string name="selectPreviewSoundFXTitle">Preview SoundFX</string>
+  <string name="selectPreviewPhotoPollTitle">Preview Photo Poll</string>
+  <string name="selectPreviewTextPollTitle">Preview Text Poll</string>
+  
+  <!-- Albums -->
+  <string name="downloadingSocialAlbumsFacebook">Downloading photoalbums from Facebook</string>
+  <string name="downloadingSocialAlbumsFormat">Downloading album thumbnails for {0}</string>
+  <string name="downloadingPhotoPreview">Photo Preview</string>
+  
+  <!-- message update -->
+  <string name="contactMessageRefreshingMessages">Refreshing messages...</string>
+  
+  <!-- networks -->
+  <string name="networkFacebook">Facebook</string>
+  <string name="networkGoogle">Google+</string>
+  <string name="networkLinkedIn">LinkedIn</string>
+  <string name="networkYouTube">YouTube</string>
+  <string name="networkTwitter">Twitter</string>
+  <string name="networkLOL">LaffOutLoud</string>
+  
+  <!-- voice message -->
+  <string name="voiceSendingMessage">Sending your voice message</string>
+  <string name="voiceSendingWait">This may take some time depending on the length of the message</string>
+</resources>

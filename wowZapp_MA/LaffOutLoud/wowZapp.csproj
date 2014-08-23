@@ -1,0 +1,581 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C45BA90D-48F8-49A0-93E4-174A6F7CAC92}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>wowZapp</RootNamespace>
+    <AssemblyName>wowZapp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <AndroidApplication>true</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <TargetFrameworkVersion>v2.3</TargetFrameworkVersion>
+    <AndroidSupportedAbis>armeabi%3barmeabi-v7a%3bx86</AndroidSupportedAbis>
+    <AndroidStoreUncompressedFileExtensions />
+    <MandroidI18n />
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <AndroidSupportedAbis>armeabi,armeabi-v7a,x86</AndroidSupportedAbis>
+    <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
+    <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
+    <AndroidSupportedAbis>armeabi,armeabi-v7a,x86</AndroidSupportedAbis>
+    <MandroidI18n>cjk,mideast,other,rare,west</MandroidI18n>
+    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Json" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="Mono.Security" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Contacts\EditContact.cs" />
+    <Compile Include="Contacts\GetConnectedInsideActivity.cs" />
+    <Compile Include="Contacts\FindContactActivity.cs" />
+    <Compile Include="Contacts\FindContactResultsActivity.cs" />
+    <Compile Include="Contacts\GetConnectedActivity.cs" />
+    <Compile Include="Contacts\GetConnectedAuthActivity.cs" />
+    <Compile Include="Contacts\GetConnectedButtonsActivity.cs" />
+    <Compile Include="Contacts\ManageContactsActivity.cs" />
+    <Compile Include="Contacts\SelectContactsActivity.cs" />
+    <Compile Include="Helpers\AnimPainter.cs" />
+    <Compile Include="Helpers\AudioManager.cs" />
+    <Compile Include="Helpers\ContentCacheManager.cs" />
+    <None Include="Helpers\FSManager.cs" />
+    <Compile Include="Helpers\header.cs" />
+    <Compile Include="Helpers\MessageManager.cs" />
+    <Compile Include="Helpers\videoPlay.cs" />
+    <Compile Include="Helpers\videoRecord.cs" />
+    <Compile Include="Login\LoginButtonsActivity.cs" />
+    <Compile Include="Login\LoginChoiceActivity.cs" />
+    <Compile Include="Login\LoginForgottenPassActivity.cs" />
+    <Compile Include="Login\LoginResetPassActivity.cs" />
+    <Compile Include="Login\LoginResetPassConfirmActivity.cs" />
+    <Compile Include="Login\LoLLoginActivity.cs" />
+    <Compile Include="Login\LoLRegisterActivity.cs" />
+    <Compile Include="Login\SocialAuthController.cs" />
+    <Compile Include="LoLCommon\Compression.cs" />
+    <Compile Include="LoLCommon\IHttpHelper.cs" />
+    <Compile Include="LoLCommon\LOLConstants.cs" />
+    <Compile Include="LoLCommon\OAuth\OAuthTokenResponse.cs" />
+    <Compile Include="LoLCommon\OAuth\OAuthTokens.cs" />
+    <Compile Include="LoLCommon\OAuth\OAuthUtility.cs" />
+    <Compile Include="LoLCommon\OAuth\ServiceType.cs" />
+    <Compile Include="LoLCommon\OAuth\XAuthUtility.cs" />
+    <Compile Include="LoLCommon\Social\CertValidator.cs" />
+    <Compile Include="LoLCommon\Social\GoogleFriendList.cs" />
+    <Compile Include="LoLCommon\Social\ISocialProviderManager.cs" />
+    <Compile Include="LoLCommon\Social\LDataObjects.cs" />
+    <Compile Include="LoLCommon\Social\LDelegates.cs" />
+    <Compile Include="LoLCommon\Social\LEventArgs.cs" />
+    <Compile Include="LoLCommon\Social\LFacebookManager.cs" />
+    <Compile Include="LoLCommon\Social\LGooglePlusManager.cs" />
+    <Compile Include="LoLCommon\Social\LLinkedInManager.cs" />
+    <Compile Include="LoLCommon\Social\LTwitterManager.cs" />
+    <Compile Include="LoLCommon\Social\LYouTubeManager.cs" />
+    <Compile Include="LoLCommon\UrlHelper\UrlParse.cs" />
+    <Compile Include="Messages\ComposeMessageChooseContent.cs" />
+    <Compile Include="Messages\ComposeMessageMainActivity.cs" />
+    <Compile Include="Messages\ComposePhotoPollActivity.cs" />
+    <Compile Include="Messages\ComposePollChoiceActivity.cs" />
+    <Compile Include="Messages\ComposeTextPollActivity.cs" />
+    <Compile Include="Messages\ContentPackActivity.cs" />
+    <Compile Include="Messages\ContentPackItemActivity.cs" />
+    <Compile Include="Messages\MessageInfo.cs" />
+    <Compile Include="Messages\MessagePlaybackController.cs" />
+    <Compile Include="Messages\MessagePollPlayback.cs" />
+    <Compile Include="Messages\ComposeTextMessageActivity.cs" />
+    <Compile Include="Messages\ComposeAudioMessageActivity.cs" />
+    <Compile Include="Messages\VideoMessageActivity.cs" />
+    <Compile Include="Photoalbums\GetPhotoAlbumActivity.cs" />
+    <Compile Include="SplashActivity.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Static\AndroidData.cs" />
+    <AndroidResource Include="Resources\Layout\LoginLoL.axml" />
+    <AndroidResource Include="Resources\Layout\ManageContactsMain.axml" />
+    <AndroidResource Include="Resources\Layout\FindContactWCF.axml" />
+    <AndroidResource Include="Resources\Layout\FindContactResults.axml" />
+    <Compile Include="Messages\LScrollView.cs" />
+    <Compile Include="Helpers\Serializer.cs" />
+    <Compile Include="Helpers\ImageHelper.cs" />
+    <AndroidResource Include="Resources\Layout\ComposeAnimationMessage.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <Compile Include="Resources\Resource.Designer.cs" />
+    <AndroidResource Include="Resources\Layout\ModalPreviewDialogButtons.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\ModalPreviewDialogAudio.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable-hdpi\addtransition.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\fadingin.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\fadingout.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\HardBrush1.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\HardBrush2.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\HardBrush3.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\HardBrush4.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\HardBrush5.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\HardBrush6.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\SoftBrush1.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\SoftBrush2.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\SoftBrush3.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\SoftBrush4.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\SoftBrush5.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\SoftBrush6.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\layers.png" />
+    <Compile Include="Photoalbums\PhotoAuthController.cs" />
+    <AndroidResource Include="Resources\Layout\PhotoAlbumNames.axml" />
+    <AndroidResource Include="Resources\Layout\ModalOnlineSelector.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\PictureAlbums.axml" />
+    <Compile Include="Photoalbums\PhotoPickerActivity.cs" />
+    <AndroidResource Include="Resources\Layout\ModalLargePreviewDialog.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\ModalContactsConversation.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <None Include="LaffOutLoud.csproj.user" />
+    <Compile Include="Helpers\VerticalSeekBar.cs" />
+    <AndroidResource Include="Resources\Layout\ModalPreviewSoundDialog.axml" />
+    <AndroidResource Include="Resources\Layout\ModalProgressBar.axml" />
+    <AndroidResource Include="Resources\Layout\PhotoAlbums.axml" />
+    <Compile Include="Helpers\colorutils.cs" />
+    <Compile Include="Main\HomeActivity.cs" />
+    <Compile Include="Animate\DraggableRow.cs" />
+    <Compile Include="Animate\DraggableItem.cs" />
+    <AndroidResource Include="Resources\drawable-hdpi\emptytransition.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\fadein.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\fadeout.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\move.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\rotate.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\scale.png" />
+    <Compile Include="Animate\AnimationUndoManager.cs" />
+    <AndroidResource Include="Resources\Layout\PlayAnimation.axml" />
+    <Compile Include="Messages\MessagePlayback.cs" />
+    <AndroidResource Include="Resources\drawable-xhdpi\headerlogo.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\icolol.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\icolol.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\headerlogo.png" />
+    <AndroidResource Include="Resources\Layout\colorpicker.axml" />
+    <None Include="Animate\ColorPicker.cs" />
+    <AndroidResource Include="Resources\Layout\ComposeComixMessage.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\ComposeComiconMessage.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\ComposeSFXMessage.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\ComposeTextMessageScreen.axml" />
+    <AndroidResource Include="Resources\Layout\ComposeEmoticonMessage.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\ComposeVideoMessage.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\CreateAudioMessage.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <Compile Include="Messages\ComposeGenericMessage.cs" />
+    <AndroidResource Include="Resources\Layout\ComposeAudioMessage.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <None Include="Messages\ComposeAnimationActivity.cs" />
+    <None Include="Messages\ViewContactMessages.cs" />
+    <None Include="Messages\CreateAudioMessageActivity.cs" />
+    <None Include="Messages\CreateTextMessageActivity.cs" />
+    <None Include="Animate\DrawingCanvasViewEx.cs" />
+    <None Include="Messages\ConversationActivity.cs" />
+    <AndroidResource Include="Resources\Layout\ModalLogoutModal1.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\ModalLogoutModal2.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable-hdpi\splashlogo.png" />
+    <Compile Include="Messages\Conversations.cs" />
+    <Compile Include="Messages\ConversationInfo.cs" />
+    <Compile Include="Messages\MessageList.cs" />
+    <Compile Include="Messages\MessageListEvents.cs" />
+    <Compile Include="Messages\MessageReceived.cs" />
+    <None Include="Messages\MessageReceivedActivity.cs" />
+    <None Include="Messages\MessageReceivedActivityUI.cs" />
+    <None Include="Messages\MessageRecievedActivityEvents.cs" />
+    <AndroidResource Include="Resources\Layout\ModalNewContacts.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <Compile Include="Contacts\AddUnknownUser.cs" />
+    <Compile Include="Messages\ConversationInfoLight.cs" />
+    <Compile Include="PushNotifications\PushSetUp.cs" />
+    <AndroidResource Include="Resources\drawable-hdpi\about.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\camera.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\help.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\profile.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\slider.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\stamp.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\tools.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\add.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\back.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\brush.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\delete.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\reply.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\save.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\undo.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\accessorybox.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\animationsettings.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\checkbox.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\checkedbox.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\closedlock.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\colorpalette.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\defaultuserimage.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\emptycircle.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\genderalien.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\genderfemale.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\gendermale.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\gendermonster.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\genderunknown.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\markedcircle.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\nocamera2.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\nomicrophone2.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\novideo2.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\openlock.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\pausebutton.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\playblack.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\playgreen.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\playred.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\scrolldown.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\scrollleft.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\scrollright.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\scrollup.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\stopbutton.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\trashbinempty.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\trashbinfull.png" />
+    <Compile Include="Main\HomeActivityUI.cs" />
+    <Compile Include="Main\HomeActivityLogout.cs" />
+    <AndroidResource Include="Resources\drawable-hdpi\switchcamera.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\next.png" />
+    <AndroidResource Include="Resources\Layout\LoginSignupLoLS1.axml" />
+    <AndroidResource Include="Resources\Layout\LoginSignupLoLS2.axml" />
+    <Compile Include="Login\LOLRegisterPhone1Activity.cs" />
+    <Compile Include="Login\LOLRegisterPhoneRegisterActivity.cs" />
+    <AndroidResource Include="Resources\drawable-hdpi\GPS1.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\GPS2.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\search.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\findonline.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\logout.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\messagelist.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\musicalnote.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\musicfile.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\contacts.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\cut.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\home.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\emptybackground.png" />
+    <None Include="Resources\Layout\ViewContactMessageLists.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\splashscreen.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\background.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\addressbook.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\comicon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\comix.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\audiofile.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\emoticon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\microphone.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\drawicon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\video.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\polls.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\nobkgrcamera.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\textmsg.png" />
+    <AndroidResource Include="Resources\Layout\ComposePhotoPoll.axml" />
+    <AndroidResource Include="Resources\Layout\ModalPoll.axml" />
+    <AndroidResource Include="Resources\Layout\ModalAboutUsCompany.axml" />
+    <AndroidResource Include="Resources\Layout\ModalAboutUsDeveloper.axml" />
+    <Compile Include="Helpers\geolocation.cs" />
+    <Compile Include="Helpers\network.cs" />
+    <AndroidResource Include="Resources\Layout\AboutMe.axml" />
+    <AndroidResource Include="Resources\Layout\ModalEditAboutMe.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <Compile Include="Contacts\AboutMe.cs" />
+    <Compile Include="Contacts\AboutMeModal.cs" />
+    <AndroidResource Include="Resources\Layout\fragNewName.axml" />
+    <AndroidResource Include="Resources\Layout\fragNewPassword.axml" />
+    <AndroidResource Include="Resources\Layout\fragNewDOB.axml" />
+    <AndroidResource Include="Resources\Layout\fragNewImage.axml" />
+    <AndroidResource Include="Resources\Layout\fragNewGender.axml" />
+    <AndroidResource Include="Resources\Layout\fragNewEmail.axml" />
+    <AndroidResource Include="Resources\Layout\fragNewScreenName.axml" />
+    <AndroidResource Include="Resources\Layout\fragNewDescription.axml" />
+    <Compile Include="Messages\ConversationsUI.cs" />
+    <None Include="Messages\ConversationsUI-original.cs" />
+    <AndroidResource Include="Resources\Layout\lstConversationMulti.axml" />
+    <AndroidResource Include="Resources\Layout\lstConversation.axml" />
+    <None Include="Messages\MessageListUI-original.cs" />
+    <Compile Include="Messages\MessageListUI.cs" />
+    <Compile Include="Animation\CreateAnimationActivity.cs" />
+    <Compile Include="Animation\CreateAnimationActivityDesigner.cs" />
+    <Compile Include="Animation\CreateAnimationActivityDrawing.cs" />
+    <Compile Include="Animation\CreateAnimationDrawer.cs" />
+    <Compile Include="Animation\ColorPickerActivity.cs" />
+    <Compile Include="Helpers\GeneralUtils.cs" />
+    <Compile Include="Animation\PlayAnimation.cs" />
+    <Compile Include="LoLCommon\BinaryUtils.cs" />
+    <Compile Include="Animation\CreateAnimationPhotos.cs" />
+    <Compile Include="Animation\CreateAnimationEvents.cs" />
+    <AndroidResource Include="Resources\Layout\CreateAnimation.axml" />
+    <None Include="LoLCommon\Extensions.cs" />
+    <Compile Include="Camera\CameraTakePictureActivity.cs" />
+    <Compile Include="Camera\videodownloader.cs" />
+    <Compile Include="Video\VideoMessageActivity.cs" />
+    <None Include="Messages\CreateVideoMessageActivity.cs" />
+    <AndroidResource Include="Resources\Layout\VideoMessage.axml" />
+    <Compile Include="Video\EditVideo.cs" />
+    <AndroidResource Include="Resources\Layout\EditVideo.axml" />
+    <Compile Include="LoLCommon\OAuth\WebRequestBuilder.cs" />
+    <Compile Include="LaffOutLoud.cs" />
+    <Compile Include="LoLCommon\Parsers.cs" />
+    <Compile Include="LoLCommon\StringUtils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Layout\GetConnectedContacts.axml" />
+    <None Include="Resources\AboutResources.txt" />
+    <AndroidResource Include="Resources\Layout\LoginFirstScreen.axml" />
+    <AndroidResource Include="Resources\Layout\LoginButtons.axml" />
+    <AndroidResource Include="Resources\Layout\LoginSocialNetwork.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\LoginSignupLoL.axml" />
+    <AndroidResource Include="Resources\Layout\CameraTakePicScreen.axml" />
+    <AndroidResource Include="Resources\Layout\LoginForgottenPass.axml" />
+    <AndroidResource Include="Resources\Layout\LoginResetPass.axml" />
+    <AndroidResource Include="Resources\Layout\LoginResetPassConfirm.axml" />
+    <AndroidResource Include="Resources\Layout\GetConnectedButtons.axml" />
+    <AndroidResource Include="Resources\Layout\MessageLists.axml" />
+    <AndroidResource Include="Resources\Layout\GetConnectedAuth.axml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\alertbottomback.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\alertheaderback.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\bottompencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\btnblue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\btnblueback.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\btngrayback.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\bubbleleft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\bubbleright.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\bubblesolidleft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\bubblesolidright.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\button.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\buttonGrey.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\fbfriends.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\final9patch.9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\footerback.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\googlefriends.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\headerback.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\icofacebook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\icogoogle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\icolinkedin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\icotwitter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\icoundo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\icoyoutube.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\LinkedInFriends.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\newuserphoto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\redarrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\rubberstamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\textbackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\textfieldback.9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\textfieldsolidlarge.9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\youtubefriends.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Values\Styles.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\incoming.mp3" />
+    <Content Include="LoLCommon\OAuth\OAuthTokens.xml" />
+    <Content Include="LoLCommon\OAuth\OAuthUtility.xml" />
+    <Content Include="Properties\AndroidManifest.xml" />
+    <AndroidResource Include="Resources\Layout\SelectContacts.axml" />
+    <AndroidResource Include="Resources\Layout\ComposeMessageMain.axml" />
+    <AndroidResource Include="Resources\Layout\ComposeMessageContentSelect.axml" />
+    <AndroidResource Include="Resources\Layout\ContentPack.axml" />
+    <AndroidResource Include="Resources\drawable-ldpi\icolol.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\icolol.png" />
+    <AndroidResource Include="Resources\Layout\blank.axml" />
+    <AndroidResource Include="Resources\Layout\EditContact.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\attachmentspreviewbkgr.png" />
+    <AndroidResource Include="Resources\Layout\ComposePollChoice.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\ComposeTextPoll.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\previewSoundFX.axml" />
+    <AndroidResource Include="Resources\Layout\previewTextPoll.axml" />
+    <AndroidResource Include="Resources\Layout\PhotoPoll.axml" />
+    <AndroidResource Include="Resources\Layout\TextPoll.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\smallcallout.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\gradientred.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable-hdpi\gradientgreen.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\gradientblue.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\gradientwhite.xml" />
+    <AndroidResource Include="Resources\Layout\Conversations.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\rotateleftbottom.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\rotatelefttop.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\rotaterightbottom.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\rotaterighttop.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\selectorbar.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\barndoors.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\blinds.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\fade.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\fadethroughblack.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\flip.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\fold.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\glow.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\gradientwipe.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\radialwipe.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\randombars.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\randomdissolve.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\slidebottomleft.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\slideleft.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\slideright.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\slidetopright.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\wheel.png" />
+    <AndroidResource Include="Resources\Layout\ContentPackItem.axml" />
+    <AndroidResource Include="Resources\Layout\LightboxDialog.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Values\Colors.xml" />
+    <AndroidResource Include="Resources\Layout\ModalPreviewDialog.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\ModalPreviewGIFDialog.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\HomeScreenscrollview.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\smalltrashbin.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\dummy.png" />
+    <None Include="Resources\Values\Strings-old.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <AndroidResource Include="Resources\Values\Strings.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+     Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="PushNotifications\" />
+    <Folder Include="Animation\" />
+    <Folder Include="Video\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\WZCommon\WZCommon-MD\WZCommonMD.csproj">
+      <Project>{ED6581E8-D128-42AB-9ECC-DB95FE3F7B6C}</Project>
+      <Name>WZCommonMD</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

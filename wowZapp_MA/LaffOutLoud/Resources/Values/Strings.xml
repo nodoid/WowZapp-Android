@@ -1,0 +1,612 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <!-- General strings -->
+  <string name="ApplicationName">wowZapp</string>
+  <string name="library_name"></string>
+  
+  <!-- debug (will be removed for production) -->
+  <string name="debugPlayingMessagePlayback">In MessageReceivedLActivity - playing message though</string>
+  <string name="debugPlayingMessage">In MessageReceivedLActivity - displaying messages</string>
+  <string name="debugPlayingMessageConversations">In MessageReceivedLActivity - displaying conversations</string>
+  <string name="debugFailToCreateInstall">Failed to create the install empty file</string>
+  
+  <!-- common messages -->
+  <string name="commonDone">Done</string>
+  <string name="commonContinue">Continue</string>
+  <string name="commonError">Error</string>
+  <string name="commonFacebookHeaderView">FACEBOOK</string>
+  <string name="commonTwitterHeaderView">TWITTER</string>
+  <string name="commonLinkedInHeaderView">LINKEDIN</string>
+  <string name="commonGooglePlusHeaderView">GOOGLE+</string>
+  <string name="commonYouTubeHeaderView">YOUTUBE</string>
+  <string name="commonLoggingIn">Logging in...</string>
+  <string name="commonOneSec">Won\'t be a moment...</string>
+  <string name="commonCancel">Cancel</string>
+  <string name="commonAdd">Add</string>
+  <string name="commonSend">Send</string>
+  <string name="commonClose">Close</string>
+  <string name="commonSendInvite">Sending invites</string>
+  <string name="commonSendInviteSent">Invite sent</string>
+  <string name="commonFocused">Focussed</string>
+  <string name="commonPictureTaken">Picture taken</string>
+
+  <!-- content packs -->
+  <string name="contentCallout">CALLOUTS</string>
+  <string name="contentComix">COMIX</string>
+  <string name="contentComicon">COMICON</string>
+  <string name="contentSoundFX">SOUND FX</string>
+  <string name="contentEmoticon">EMOTICON</string>
+  <string name="contentRubber">RUBBER STAMPS</string>
+
+  <!-- web authorisations -->
+  <string name="webAuthFacebook">Authorizing with Facebook</string>
+  <string name="webAuthTwitter">Authorizing with Twitter</string>
+  <string name="webAuthGoogle">Authorizing with Google+</string>
+  <string name="webAuthLinkedIn">Authorizing with LinkedIn</string>
+  <string name="webAuthYouTube">Authorizing with YouTube</string>
+  <string name="webAuthWaitMessage">Shan\'t be long...</string>
+  
+  <!-- photoalbums -->
+  <string name="albumsTitle">PHOTOALBUMS</string>
+  <string name="albumsDownloading">Downloading albums</string>
+  <string name="albumsPleaseWait">Please wait... shouldn\'t take long</string>
+  
+  <!-- main -->
+  <string name="mainTitle">WELCOME!</string>
+
+  <!-- Modal messages -->
+  <string name="modalOK">OK</string>
+  <string name="modalCancel">Cancel</string>
+  
+  <!-- manage contacts -->
+  <string name="manageContactsRetrievingContacts">Retrieving contacts...</string>
+
+  <!-- password messages -->
+  <string name="passwordReset">Reset</string>
+  <string name="passwordCancel">Cancel</string>
+  <string name="passwordRecoverylblMessage">We can\'t blame you, we forget ours all the time, too! Enter your email address below and we will send you a reset code.</string>
+  <string name="passwordRecoveryRequestingResetCode">Requesting reset code...</string>
+  
+  <!-- find contacts -->
+  <string name="findContactTitle">FIND CONTACT</string>
+  <string name="findContactbtnSearch">Search</string>
+  <string name="findContactScreenName">User screen name</string>
+  <string name="findContactbtnConnect">Connect Online</string>
+  <string name="findContactNoContactsFound">No contacts found with the specified criteria.</string>
+  <string name="findContactAddingContact">Adding contact...</string>
+  <string name="findContactDistance">Search within</string>
+  <string name="findContactUnits">miles</string>
+  
+  <!-- contacts -->
+  <string name="contactsTitle">CONTACTS</string>
+  <string name="contactsRefreshing">Refreshing contacts list...</string>
+  <string name="contactsPDTitle">Saving contacts</string>
+  <string name="contactsFinding">Finding contacts...</string>
+  <string name="contactsGetFacebook">Retrieving your Facebook friends</string>
+  <string name="contactsGetGoogle">Retrieving your Google+ friends</string>
+  <string name="contactsLinkedIn">Retrieving your LinkedIn contacts</string>
+  <string name="contactsNoneSelected">You have not selected any contacts to add</string>
+  <string name="contactsAddingContact">Adding contact</string>
+  <string name="contactsNewContactTitle">NEW CONTACT</string>
+  <string name="contactsAcceptContact">Accept contact</string>
+  <string name="contactsDeclineContact">Decline contact</string>
+  <string name="contactsSelectContacts">SELECT CONTACTS</string>
+
+  <!-- get connected -->
+  <string name="getconnectedTitle">GET CONNECTED</string>
+  <string name="getconnectedFB">Get Facebook friends</string>
+  <string name="getconnectedGoogle">Get Google+ friends</string>
+  <string name="getconnectedLinkedIn">Get LinkedIn friends</string>
+  <string name="getconnectedContinue">Continue</string>
+
+  <!-- logout messages -->
+  <string name="logoutTitle">Log Out</string>
+  <string name="logoutMessage">If you logout, you will not receive notification of new messages until you log back in</string>
+  <string name="logoutOpt1">Logout and clear history</string>
+  <string name="logoutOpt2">Logout</string>
+  <string name="logoutOpt3">Cancel</string>
+  <string name="logoutOptions">Options</string>
+  <string name="logoutText">Please select one of the following</string>
+  <string name="logoutbuttonsM1">About us</string>
+  <string name="logoutbuttonsM2">Support</string>
+  <string name="logoutbuttonsM3">User profile</string>
+  <string name="logoutbuttonsM4">Log out</string>
+
+  <!-- Forgotten password -->
+  <string name="forgotPasswordMessage">We can\'t blame you, we forget our all the time too! Enter your email address below and we\'ll send you a reset code</string>
+  <string name="forgotPassword">FORGOTTEN PASSWORD</string>
+  <string name="forgotReset">Reset</string>
+  <string name="forgotSent">The reset code for your account has been sent to your email address. Please follow the directions given to reset it</string>
+  <string name="forgotNotSent">The reset code has not been sent. Please try again.</string>
+ 
+  <!-- temp auth codes -->
+  <string name="authAccountIDNotToken">Internal - account ID not linked to token</string>
+  <string name="authNoToken">Internal - token not in database</string>
+  <string name="authTokenLoggedOut">Internal - token logged out</string>
+  <string name="authNotAuthenticated">Internal - token not authenticated</string>
+  <string name="authTokenExpired">Internal - token expired</string>
+  <string name="authNoDeviceIDSent">Internal - no device ID sent</string>
+
+  <!-- video messages -->
+  <string name="videoCloseVideo">Close</string>
+  <string name="videoStartRecording">Start recording</string>
+  <string name="videoStopRecording">Stop recording</string>
+  <string name="videoSeconds">seconds</string>
+
+  <!-- video error messages -->
+  <string name="videoErrorTitle">Video Error</string>
+  <string name="videoFailToStart">The video recorder failed to start</string>
+  <string name="videoFailToConnect">The video camera service failed to connect</string>
+  <string name="videoFailToPlay">The video failed to playback</string>
+
+  <!-- video edit messages -->
+  <string name="videoEditTitle">EDIT VIDEO</string>
+<string name="videoEditGenerateThumbs">Generating thumb nails</string>
+
+  <!-- video edit errors -->
+  <string name="videoEditError">VIDEO EDITOR ERROR</string>
+  <string name="videoEditErrorOutOfBounds">You have set the edit marks past the start or end of the video</string>
+  <string name="videoEditErrorOverlap">You cannot overlap callouts</string>
+  <string name="videoEditErrorWrongWay">You have set the end before the start point of the video edit</string>
+
+  <!-- reset password -->
+  <string name="resetTitle">RESET PASSWORD</string>
+  <string name="resetInitialMessage">We have sent a reset code to your email address. When you receive this code, just enter it below to reset your password</string>
+  <string name="resetEmailAddress">Email address:</string>
+  <string name="resetResetCode">Reset code</string>
+  <string name="resetConfirmed">The reset code has been confirmed. Please enter your password below.</string>
+  <string name="resetPassword">Password</string>
+  <string name="resetVerifyPassword">Verify password</string>
+  <string name="resetReset">Reset</string>
+  <string name="resetCancel">Cancel</string>
+  <string name="resetLogin">Login</string>
+  <string name="resetResetting">Resetting password...</string>
+
+  <!-- external text -->
+  <string name="invitePBTitle">SEND INVITES</string>
+  <string name="invitePBMessage">Sending invites to your friends. Please wait...</string>
+  <string name="inviteFacebookPostMessageFormat">I am beta testing a great new app, you should check it out online at {0}</string>
+  <string name="inviteLinkedInPostMessage">is beta testing a great new app, you should check it out!</string>
+
+  <!-- verify code -->
+  <string name="verificationCodelblMessage">We sent a code to your email address. When you receive this code, just enter it below to reset your password.</string>
+  <string name="verificationCodelblEmailFormat">Email address: {0}</string>
+  <string name="verificationCodelblVerificationCode">Verification code:</string>
+  <string name="verificationCodeTitle">VERIFICATION CODE</string>
+  <string name="verificationCodeFieldEmpty">Verification code field is empty.</string>
+  <string name="verificationCodeSendingVerificationCode">Sending verification code...</string>
+  <string name="verificationCodeResetError">There has been an error in the verification code. Please check your entry and resubmit.</string>
+
+  <!-- snusnu messages -->
+  <string name="snusnuFishSticks">fishsticks</string>
+
+  <!-- Login messages -->
+  <string name="loginHeader">WOWZAPP LOGIN</string>
+  <string name="loginSubHeader">wowZapp!</string>
+  <string name="loginExistingUser">Existing User</string>
+  <string name="loginNewUser">New User</string>
+  <string name="loginEmail">Email address</string>
+  <string name="loginPassword">Password</string>
+  <string name="loginLogin">Login</string>
+  <string name="loginCancel">Cancel</string>
+  <string name="loginForgotPassword">Forgotten password</string>
+  <string name="loginRegisteringUser">Registering new user</string>
+  <string name="loginLoggingIn">Logging you in</string>
+  <string name="loginRegistrationLOL">Signing you up to wowZapp</string>
+  <string name="loginRegistrationMessage">Registering you now... The speed depends on your upload connection.</string>
+  <string name="loginRegistration">REGISTRATION</string>
+  <string name="loginNewUserHeader">REGISTER</string>
+  <string name="loginAuthGood">Authorization complete</string>
+  <string name="loginAuthError">Authentication error</string>
+  
+  <!-- create new user using LOL-->
+  <string name="createTitle">NEW USER</string>
+  <string name="createFirstName">First name</string>
+  <string name="createSurname">Surname</string>
+  <string name="createEmail">Email address</string>
+  <string name="createPassword">Password</string>
+  <string name="createPasswordVerify">Verify passwords</string>
+  <string name="createUsername">Username</string>
+  <string name="createDOB">Date of birth</string>
+  <string name="createChoose">Choose</string>
+  <string name="createTakePic">Take Picture</string>
+  <string name="createRegister">REGISTER</string>
+  <string name="createGender">Select gender</string>
+  <string name="createDescription">Profile Description</string>
+  <string name="createCheckQuest1">Allow new friends to find you by location</string>
+  <string name="createCheckQuest2">Display my location to others</string>
+  <string name="createCheckQuest3">Allow people to search for you by name</string>
+  <string name="createCommsError">Communication error with the server. Please try again later</string>
+  <string name="createSuccess">You are now part of wowZapp! Feel free to come and go.</string>
+  <string-array name="createMonths">
+  <item>January</item>
+  <item>February</item>
+  <item>March</item>
+  <item>April</item>
+  <item>May</item>
+  <item>June</item>
+  <item>July</item>
+  <item>August</item>
+  <item>September</item>
+  <item>October</item>
+  <item>Novemeber</item>
+  <item>December</item>
+  </string-array>
+
+  <!-- send message -->
+  <string name="sendMessageTextTitle">TEXT MESSAGE</string>
+  <string name="sendMessageAdd">Add</string>
+  <string name="sendMessageSend">Send</string>
+  <string name="sendMessageMessageSent">Message sent</string>
+
+  <!-- message lists -->
+  <string name="messageListHeaderViewTitle">MESSAGE LIST</string>
+  <string name="messageSpeakNow">Dictate your message</string>
+  <string name="messageRefreshingMessages">Refreshing messages list</string>
+  <string name="messageViewingMessage">Grabbing your message</string>
+  <string name="messageViewingPleaseWait">Please wait</string>
+
+  <!-- compose text -->
+  <string name="composeTextMessagelblMessage">Tap inside the box to type your message</string>
+  
+  <!-- choose friends -->
+  <string name="chooseFriendslblMessage">Find your friends on wowZapp, quick and easy!</string>
+
+  <!-- photo -->
+  <string name="photoTitle">SMILE PLEASE!</string>
+  <string name="photoNoConnection">Unable to connect to the camera, sorry.</string>
+  
+  <!-- error messages -->
+  <string name="errorInternalErrorTitle">Internal Error</string>
+  <string name="errorInternalErrorMessage">An internal error has occured. Please report this back to the developers</string>
+  <string name="errorSendingErrorTitle">Unable to send message</string>
+  <string name="errorCreateTitle">Create user error</string>
+  <string name="errorCreateUsername">You have not entered a valid username</string>
+  <string name="errorCreatePassword">You have not entered a password</string>
+  <string name="errorCreateVerify">You have not verified the password</string>
+  <string name="errorCreateEmail">You have not entered an email address</string>
+  <string name="errorCreateNoMatch">The passwords do not match</string>
+  <string name="errorCreateEmailInvalid">The email address is invalid</string>
+  <string name="errorCreateNoFirst">You need to give a first name</string>
+  <string name="errorMessageSendFail">The message was unable to be sent</string>
+  <string name="errorAudioProblemTitle">Audio player error</string>
+  <string name="errorEmptyFilename">No filename has been passed for playing</string>
+  <string name="errorPlayingFile">An error occurred playing the file. Please report this fault</string>
+  <string name="errorEmptyURL">No URL has been passed to the player</string>
+  <string name="errorNetFault">No network available</string>
+  <string name="errorPlayingURL">An error occurred playing the URL. Please report this fault</string>
+  <string name="errorEmailInvalid">Email address invalid</string>
+  <string name="errorFirstLastTooShort">The first or last name has less than 2 characters</string>
+  <string name="errorUnableToSendVerificationCode">Unable to send verification code to the provided email address.</string>
+  <string name="errorRequestingPasswordResetCode">Error requesting password reset code.</string>
+  <string name="errorResettingPassword">Error reseting password.</string>
+  <string name="errorDownloadingContactList">Failed to download your contacts.</string>
+  <string name="errorLoginFailed">Login failed. Please check your details.</string>
+  <string name="errorCouldNotValidateEmailPassword">Could not validate email/password combination.</string>
+  <string name="errorSearchingContactsByCriteria">Failed to search for contact.</string>
+  <string name="errorNoPreview">An error has occurred while previewing the picture</string>
+  <string name="errorDownloadingFriendsFormat">Failed to download friends from {0}.</string>
+  <string name="errorSavingContactFormat">Failed to save contact {0}.</string>
+  <string name="errorFileTransfer">An error has occurred while transfering the picture</string>
+  <string name="errorNoImagesTaken">Error storing image. It has not been saved.</string>
+  <string name="errorRefreshingAccessTokenFormat">Failed to refresh access token for {0}.</string>
+  <string name="errorStoreEXIF">An error has occurred storing the EXIF metadata</string>
+  <string name="errorNotLoggedIn">wowZapp user has not been logged in</string>
+  <string name="errorUserCreationFailed">User creation failed.</string>
+  <string name="errorUserCreation">User creation error</string>
+  <string name="errorSavingContacts">Save contacts failed.</string>
+  <string name="errorCouldNotGetUserInfoFormat">Could not retrieve your information from {0}</string>
+  <string name="errorSearchingContactsFailed">Searching for selected contacts in wowZapp failed.</string>
+  <string name="errorUserLoginFailed">User login failed.</string>
+  <string name="errorSendingInvitations">Sending invitations failed.</string>
+  <string name="errorUserLoginProblem">Login problem</string>
+  <string name="errorDownloadFailGeneric"> has failed to download</string>
+  <string name="errorContentPackFail">ContentPack Error</string>
+  <string name="errorDownloadPackItems"> has failed to download items (</string>
+  <string name="errorAccessTokenError">Access token error</string>
+  <string name="errorRefreshFacebookToken">Error refreshing facebook access token</string>
+  <string name="errorPhotoAlbumDownload">An error has occurred while retrieving your photo albums</string>
+  <string name="errorPhotoAlbumInfoDownload">An error occurred while downloading photo info for your selected album</string>
+  <string name="errorEditContactsSaveTitle">Edit contacts error</string>
+  <string name="errorEditContactsDeleteTitle">Delete contacts error</string>
+  <string name="errorAuthError">Authentication error</string>
+  <string name="errorSaveContactTitle">Save contact error</string>
+  <string name="errorSaveContactMessage">Error saving contact!</string>
+  <string name="errorSendingVoiceMessage">Error saving voice recording file!</string>
+  <string name="errorUploadingVoiceMessage">Error uploading voice recording</string>
+  <string name="errorUploadPollingMessage">An error has occurred during the vote - please try again</string>
+  <string name="errorAudioConvertor">Unable to create wav correctly</string>
+  <string name="errorNoSpaceForText">You cannot create a text element without removing an element first</string>
+  <string name="errorUploadingAnimation">An error occurred uploading the animation</string>
+  <string name="errorDuplicateUser">A user with the same email address already exists on the system</string>
+  <string name="errorNoContactsTitle">Contacts error</string>
+  <string name="errorNoContacts">You don\'t have any contacts</string>
+  <string name="errorLoginAccountInvalid">The details you have provided don\'t seem to be on the system</string>
+  <string name="errorLoginFail">An error has occurred during login. Please try again</string>
+  <string name="errorConversationGrabTitle">Conversation error</string>
+  <string name="errorConversationGrabMessage">An error has occurred getting your conversations. Please try again later</string>
+  <string name="errorAboutMeTitle">EDIT DETAILS ERROR</string>
+  <string name="errorAboutMeFullName">You have not said what your name is</string>
+  <string name="errorAboutMeScreename">You need a screen name</string>
+  <string name="errorAboutMePassword">You cannot have a blank password</string>
+  <string name="errorAboutMeEmail">You need a valid email address to use this app</string>
+
+  <!-- alerts -->
+  <string name="alertViewMessagePasswordFieldsEmpty">Please enter your new password in both fields.</string>
+  <string name="alertViewTitlePasswordsMismatch">Passwords Don\'t Match</string>
+  <string name="alertViewMessageNotValidEmailAddress">Entered text is not a valid email address!</string>
+  <string name="alertViewTitleFieldEmpty">Empty Field</string>
+  <string name="alertViewEmailEmpty">Email address empty</string>
+  <string name="alertViewEmailInvalid">Email address is invalid</string>
+  <string name="alertViewMessageLogoutFailed">Failed to log out.</string>
+  <string name="alertViewMessageConnectionProblem">Connection problem. Please try again in a few minutes.</string>
+  <string name="alertViewTitleFirstNameEmpty">First Name Empty</string>
+  <string name="alertViewTitleLastNameEmpty">Last Name Empty</string>
+  <string name="alertViewMessageAccessTokenProblem">There was a problem receiving an access token. Please try again in a few minutes.</string>
+  <string name="alertViewMessagePasswordEmpty">Please enter a password.</string>
+  <string name="alertViewUserCancelledAuth">User cancelled authorisation</string>
+  <string name="alertViewMessageAccountExists">An account with this email address already exists.</string>
+  <string name="alertViewTitlePasswordEmpty">Password Empty</string>
+
+  <!-- messages -->
+  <string name="messageSendingMessage">Sending message...</string>
+  <string name="messageDownloadMessageContent">Downloading message content</string>
+  <string name="messageDownloadPleaseWait">Shouldn\'t be too long though images may take some time.</string>
+  <string name="messageAudioClickToRecord">Tap to start recording your message.</string>
+  <string name="messageReadMessage">READ MESSAGE</string>
+  <string name="messageStartMessageTitle">START MESSAGE</string>
+  <string name="messageCreateMessageTitle">CREATE MESSAGE</string>
+  <string name="messageShowAllInConversation">Show all participants</string>
+  
+  <!-- polling messages -->
+  <string name="pollGettingResults">Retrieving your poll results</string>
+  <string name="pollPreviewPhotoPoll">PREVIEW PHOTO POLL</string>
+  <string name="pollPhotoTitle">PHOTO POLL</string>
+  <string name="pollPreviewVote">PREVIEW TEXT POLL</string>
+  <string name="pollPhotoVotePoll">Vote now!</string>
+  <string name="pollPollResults">Poll results</string>
+  <string name="pollPreviewTextPoll">Preview Text Poll</string>
+  <string name="pollTapForPicture">Tap to select photo</string>
+  <string name="pollTapForText">Tap to edit poll options</string>
+  <string name="pollTextPollTitle">TEXT POLL</string>
+  <string name="pollEditTextTitle">EDIT POLL</string>
+  <string name="pollCreatePollMessage">Number of options?</string>
+  <string name="pollCancelButton">Cancel</string>
+  <string name="pollCreateButton">Create Poll</string>
+  <string name="pollCancelConfirm">Are you sure you wish to cancel?</string>
+  <string name="pollAddButton">Add</string>
+  <string name="pollSendButton">Send</string>
+  <string name="pollVoteButton">Vote</string>
+  <string name="pollVoteDone">Done</string>
+  <string name="pollUploadPoll">Uploading your poll</string>
+  <string name="pollWait">Won\'t take long...</string>
+  <string name="pollOption1">Option 1</string>
+  <string name="pollOption2">Option 2</string>
+  <string name="pollOption3">Option 3</string>
+  <string name="pollOption4">Option 4</string>
+  <string name="pollSubViewDone">Done</string>
+  <string name="pollSubViewVotesCast">Votes cast</string>
+  <string name="pollSubViewNumberVotesFormat">{0} votes</string>
+  <string name="pollTapToAdd">Tap to select photo</string>
+  <string name="pollCreateNewPoll">CREATE POLL</string>
+  <string name="pollTextTitle">TEXT POLL</string>
+  <string name="pollTapToEdit">Tap to edit poll options</string>
+  <string name="pollModalHeader">Photopoll media source</string>
+  <string name="pollModalTitle">Select source</string>
+  <string name="pollModalSourceStorage">Local storage</string>
+  <string name="pollModalSourceCamera">Camera</string>
+  <string name="pollModalSourceInternet">Internet</string>
+  
+  <!-- choose friends -->
+  <string name="chooseFriendsAddingSelectedContacts">Adding selected contacts...</string>
+  
+  <!-- animation -->
+  <string name="animationComposeTitle">COMPOSE ANIMATION</string>
+  <string name="animationSelectColour">Select colour to use</string>
+  
+  <!-- content pack-->
+  <string name="contentTitle">CONTENT PACKS</string>
+  <string name="contentProcessing">Processing your selected pack.... Please wait</string>
+  <string name="contentGrabbingYourPack">Grabbing your packs</string>
+  <string name="contentCategories">CATEGORIES</string>
+  
+  <!-- edit contacts -->
+  <string name="editContactBlock">Block contact</string>
+  <string name="editContactUnblock">Unblock contact</string>
+  <string name="editContactBlocking">Blocking contact</string>
+  <string name="editContactUnblocking">Unblocking contact</string>
+  <string name="editContactDeleting">Deleting contact</string>
+  <string name="editContactTitle">EDIT CONTACT</string>
+  <string name="editContactlblMessage">Contact\'s Name</string>
+  <string name="editContactDeleteContact">Delete Contact</string>
+
+  <!-- select or preview content -->
+  <string name="selectPreviewTitleComix">SELECT COMIX</string>
+  <string name="selectPreviewTitleComicon">SELECT COMICON</string>
+  <string name="selectPreviewSoundFX">SELECT SOUNDFX</string>
+  <string name="selectPreviewEmoticons">SELECT EMOTICON</string>
+  <string name="selectPreviewBrowseComix">Tap picture to browse Comix</string>
+  <string name="selectPreviewBrowseComicon">Tap picture to browse Comicons</string>
+  <string name="selectPreviewBrowseSoundFX">Tap picture to browse SoundFX</string>
+  <string name="selectPreviewBrowseEmoticon">Tap picture to browse Emoticons</string>
+  <string name="selectPreviewTap">Tap empty icons to add content</string>
+  <string name="selectPreviewComiconTitle">PREVIEW COMICON</string>
+  <string name="selectPreviewEmoticonTitle">PREVIEW EMOTICON</string>
+  <string name="selectPreviewMessageTitle">PREVIEW MESSAGE</string>
+  <string name="selectPreviewComixTitle">PREVIEW COMIX</string>
+  <string name="selectPreviewSoundFXTitle">PREVIEW SOUNDFX</string>
+  <string name="selectPreviewPhotoPollTitle">PREVIEW PHOTO POLL</string>
+  <string name="selectPreviewTextPollTitle">PREVIEW TEXT POLL</string>
+  
+  <!-- titles -->
+  <string name="titleComicon">COMICON MESSAGE</string>
+  <string name="titleText">TEXT MESSAGE</string>
+  <string name="titleComix">COMIX MESSAGE</string>
+  <string name="titleAudio">AUDIO MESSAGE</string>
+  <string name="titleSFX">SOUND FX MESSAGE</string>
+  <string name="titleVideo">VIDEO MESSAGE</string>
+  <string name="titlePoll">POLL MESSAGE</string>
+  <string name="titleEmoticon">EMOTICON MESSAGE</string>
+  <string name="titleAnimation">ANIMATION MESSAGE</string>
+  
+  
+  <!-- conversations -->
+  <string name="converseMainTitle">CONVERSATIONS</string>
+  <string name="converseShowAllBtn">Show All</string>
+  <string name="converseContactsInConversation">Contacts in this conversation</string>
+  
+  <!-- prepare preview -->
+  <string name="prepareMessage">Preparing your message preview</string>
+  
+  <!-- modals -->
+  <string name="previewComicon">Preview</string>
+  <string name="onlineModalTitle">Online</string>
+  <string name="onlineModalDownloadFor">Downloading online thumbnails for </string>
+  
+  <!-- audio and video messages-->
+  <string name="audioTitle">AUDIO MESSAGE</string>
+  <string name="videoTitle">VIDEO MESSAGE</string>
+  
+  <!-- animation messages -->
+  <string name="animationTitle">ANIMATION MESSAGE</string>
+  <string name="animationColsR">R</string>
+  <string name="animationColsG">G</string>
+  <string name="animationColsB">B</string>
+  <string name="animationColsO">O</string>
+  <string name="animationMessage">Click picture to Edit / Create</string>
+  <string name="animationPlaybackTitle">ANIMATION PLAYBACK</string>
+  
+  <!-- modals for animations -->
+  <string name="animationModalPhoto">Select photo source</string>
+  <string name="animationModalPhotoTitle">PHOTO SELECTION</string>
+  <string name="animationModalSourceCamera">Camera</string>
+  <string name="animationModalSourceAlbums">Albums</string>
+  <string name="animationModalSourceOnline">Online</string>
+  <string name="animationModalAudio">Select audio source</string>
+  <string name="animationModalAudioTitle">AUDIO SELECTION</string>
+  <string name="animationModalAudioRecordNew">New recording</string>
+  <string name="animationModalAudioStored">Albums</string>
+  <string name="animationModalAudioContent">SoundFX</string>
+  
+  <!-- photoalbum and photoalbum photo messages -->
+  <string name="photoalbumModalTitle">DOWNLOAD YOUR PHOTOALBUMS</string>
+  <string name="photoalbumModalWait">Please wait, this shouldn\'t take too long</string>
+  <string name="photoalbumModalRetrieveTitle">Downloading your photo</string>
+  <string name="photoalbumModalRetrieveWait">Just a second....</string>
+  <string name="photoalbumAlbumsTitle">PHOTO ALBUMS</string>
+  <string name="photoalbumTitle">PHOTOS</string>
+  
+  <!-- videoalbum and videoalbum video messages -->
+  <string name="videoalbumModalTitle">Downloading your video albums</string>
+  <string name="videoalbumModalVideoTitle">Downloading your video</string>
+  
+  <!-- colour spinner -->
+  <string name="colorPickerTitle">COLOR PICKER</string>
+  <string name="colorPickerBrightness">Brightness</string>
+  <string name="colorPickerOpacity">Opacity</string>
+  
+  <!-- video source selection modal -->
+  <string name="videoselectModalHeader">VIDEO SOURCE</string>
+  <string name="videoselectModalMessage">Select the source of your video</string>
+  <string name="videoselectModalLibrary">From library</string>
+  <string name="videoselectModalCamera">From camera</string>
+  
+  <!-- transitions -->
+  <string name="transitionsSettingsHeader">Transitions</string>
+  <string name="transitionsSettingsTitle">Transition settings</string>
+  <string name="transitionsSettingsDuration">Duration</string>
+  <string name="transitionsSettingsAddNew">Add new transition</string>
+  <string name="transitionsSettingsTime"> secs</string>
+  <string name="transitionsSettingsRotations">Number of rotations</string>
+  <string name="transitionsSettingsMove">Move</string>
+  <string name="transitionsSettingsMoveDescription">Animates the current layer to a new position</string>
+  <string name="transitionsSettingsRotation">Rotation</string>
+  <string name="transitionsSettingsRotationDescription">Animates and rotates the current layer</string>
+  <string name="transitionsSettingsScale">Scale</string>
+  <string name="transitionsSettingsScaleDescription">Animates the scaling of the layer</string>
+  <string name="transitionsSettingsFadeIn">Fade in</string>
+  <string name="transitionsSettingsFadeInDescription">Animates the layer to become visible</string>
+  <string name="transitionsSettingsFadeOut">Fade out</string>
+  <string name="transitionsSettingsFadeOutDescription">Animates the layer to become invisible</string>
+  
+  <!-- conversations / messages UI -->
+  <string name="conversationUINoUnreadMessages">0 unread messages</string>
+  <string name="conversationUIUnreadMessages"> unread message</string>
+  <string name="conversationUISent">Date sent</string>
+  
+  <!-- about us - company -->
+  <string name="aboutusTitle">About Us</string>
+  <string name="aboutusTrendaPublished">Published by:</string>
+  <string-array name="aboutusTrendaAddress">
+  <item>Trenda Media, LLC.</item>
+  <item>550 North Brand Boulevard</item>
+  <item>Suite 1660</item>
+  <item>Glendale, California 91203</item>
+  </string-array> 
+  <string name="aboutusDeveloped">Developed by:</string>
+  <string-array name="aboutusSpork">
+  <item>OpenSpork Software LLC</item>
+  <item>Somewhere over the rainbow</item>
+  <item>Way up high</item>
+  <item>Stockholm 2 Liverpool 3</item>
+  </string-array>
+  <string name="aboutusVersion">Version: </string>
+  <string name="aboutusPublishDate">Published: </string>
+  <!-- about us - developers -->
+  <string name="developerButton">Developer information</string>
+  <string name="developerCloseButton">Close</string>
+  <string name="developersAndroid">For Android</string>
+  <string name="developersProjMan">Project manager</string>
+  <string-array name="developersList">
+  <item>Scott D. Sullivan-Reinhart</item>
+  <item>Paul F. Johnson</item>
+  <item>Dimitris Tavlikos</item>
+  <item>Andrei Dragotoniu</item>
+  <item>Ella Monea</item>  
+  </string-array>
+  <string name="developersiOS">For iOS</string>
+  <string name="developersGraphics">Graphics</string>
+  <string name="developersWebDB">Website and database</string>
+  
+  <!-- About me -->
+  <string name="aboutMeTitle">ABOUT ME</string>
+  <string name="aboutMeScreen">Nickname</string>
+  <string name="aboutMeRealName">Full name</string>
+  <string name="aboutMeEmail">Email</string>
+  <string name="aboutMePassword">Password</string>
+  <string name="aboutMeDOB">DOB</string>
+  <string name="aboutMeGender">Gender</string>
+  <string name="aboutMeChange">Change</string>
+  <string name="aboutMePicture">This is me</string>
+  <string name="aboutMeDescription">Profile</string>
+  <string name="aboutMeCheckQuest1">Allow new friends to find you by location</string>
+  <string name="aboutMeCheckQuest2">Display my location to others</string>
+  <string name="aboutMeCheckQuest3">Allow people to search for you by name</string>
+  <string name="aboutMeAccept">Accept</string>
+  <string name="aboutMeCancel">Cancel</string>
+  
+  <!--About me modal-->
+  <string name="aboutMeModalTitle">EDIT MY INFORMATION</string>
+  <string name="aboutMeModalOK">Accept</string>
+  <string name="aboutMeModalCancel">Cancel</string>
+  <string name="aboutMeModalCurrentName">Current name</string>
+  <string name="aboutMeModalFirstName">First name</string>
+  <string name="aboutMeModalLastName">Last name</string>
+  <string name="aboutMeModalPassword">New password</string>
+  <string name="aboutMeModalPasswordRepeat">Repeat password</string>
+  <string name="aboutMeModalGender">Current gender</string>
+  <string name="aboutMeModalNewGender">New gender</string>
+  <string name="aboutMeModalCurrentPic">Current Picture</string>
+  <string name="aboutMeNewPicture">New Picture</string> 
+  <string name="aboutMeFromCamera">Camera</string>
+  <string name="aboutMeFromStorage">Storage</string>
+  <string name="aboutMeModalCurrentEmail">Current email address</string>
+  <string name="aboutMeModalNewEmail">New email address</string>
+  <string name="aboutMeModalScreen">Current screen name</string>
+  <string name="aboutMeModalNewScreen">New screen name</string>
+  <string name="aboutMeModalCurrentDescription">Current description</string>
+  <string name="aboutMeModalNewDescription">New description</string>
+  <string name="aboutMeModalDay">Day</string>
+  <string name="aboutMeModalMonth">Month</string>
+  <string name="aboutMeModalYear">Year</string>
+</resources>

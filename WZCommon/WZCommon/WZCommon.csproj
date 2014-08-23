@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0436B8B6-8031-470D-A98A-8E8A01F34D8C}</ProjectGuid>
+    <ProjectTypeGuids>{6BC8ED88-2882-458C-8E55-DFD12B67127B};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>WZCommon</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>WZCommon</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="monotouch" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Runtime.Serialization" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Animation\" />
+    <Folder Include="DataObjects\" />
+    <Folder Include="SQLite-net\" />
+    <Folder Include="Utils\" />
+    <Folder Include="WebServices\" />
+    <Folder Include="DatabaseTableTypes\" />
+    <Folder Include="Animation\Old_JS\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Animation\ILoopHandler.cs" />
+    <Compile Include="Animation\LoopManager.cs" />
+    <Compile Include="DataObjects\Animation.cs" />
+    <Compile Include="DataObjects\AnimationAudioInfo.cs" />
+    <Compile Include="DataObjects\AnimationInfo.cs" />
+    <Compile Include="DataObjects\BrushItem.cs" />
+    <Compile Include="DataObjects\DrawingInfo.cs" />
+    <Compile Include="DataObjects\FrameInfo.cs" />
+    <Compile Include="DataObjects\FrameLayerPair.cs" />
+    <Compile Include="DataObjects\LayerInfo.cs" />
+    <Compile Include="DataObjects\PixelRGB.cs" />
+    <Compile Include="DataObjects\TransitionEffectMapping.cs" />
+    <Compile Include="DataObjects\TransitionEffectSettings.cs" />
+    <Compile Include="DataObjects\TransitionInfo.cs" />
+    <Compile Include="DataObjects\UndoInfo.cs" />
+    <Compile Include="SQLite-net\SQLite.cs" />
+    <Compile Include="DataObjects\Extensions.cs" />
+    <Compile Include="Utils\AnimationUtils.cs" />
+    <Compile Include="DataObjects\Enums.cs" />
+    <Compile Include="DataObjects\RequestState.cs" />
+    <Compile Include="DataObjects\Pair.cs" />
+    <Compile Include="DatabaseTableTypes\ContactDB.cs" />
+    <Compile Include="DatabaseTableTypes\ContactOAuthDB.cs" />
+    <Compile Include="DatabaseTableTypes\ContentPackDB.cs" />
+    <Compile Include="DatabaseTableTypes\ContentPackItemDB.cs" />
+    <Compile Include="DatabaseTableTypes\MessageDB.cs" />
+    <Compile Include="DatabaseTableTypes\MessageRecipientDB.cs" />
+    <Compile Include="DatabaseTableTypes\MessageStepDB.cs" />
+    <Compile Include="DatabaseTableTypes\PathPointDB.cs" />
+    <Compile Include="DatabaseTableTypes\PollingStepDB.cs" />
+    <Compile Include="DatabaseTableTypes\UserDB.cs" />
+    <Compile Include="DataObjects\WZColor.cs" />
+    <Compile Include="WebServices\LOLConnect.cs" />
+    <Compile Include="WebServices\LOLMessage.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Animation\Old_JS\Animation.cs" />
+    <None Include="Animation\Old_JS\ScreenObject.cs" />
+    <None Include="Animation\Old_JS\Transition.cs" />
+    <None Include="Animation\Old_JS\Translator.cs" />
+    <None Include="Animation\Old_JS\JavaScript.js" />
+  </ItemGroup>
+</Project>

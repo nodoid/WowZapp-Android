@@ -1,0 +1,70 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="LaffOutLoud/Helpers/ImageHelper.cs" Line="112" Column="24" />
+      <File FileName="LaffOutLoud/Resources/Values/Strings.xml" Line="1" Column="1" />
+      <File FileName="LaffOutLoud/Contacts/AboutMe.cs" Line="1" Column="1" />
+      <File FileName="LaffOutLoud/Messages/ComposeMessageMainActivity.cs" Line="734" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Option id="ShowAllFiles" value="True" />
+          <Node name="wowZapp" expanded="True">
+            <Node name="Camera" expanded="True" />
+            <Node name="Contacts" expanded="True" />
+            <Node name="Helpers" expanded="True" />
+            <Node name="Login" expanded="True" />
+            <Node name="Main" expanded="True" />
+            <Node name="Messages" expanded="True" />
+            <Node name="Resources" expanded="True">
+              <Node name="Layout" expanded="True">
+                <Node name="AboutMe.axml" selected="True" />
+              </Node>
+              <Node name="Values" expanded="True" />
+            </Node>
+            <Node name="Video" expanded="True" />
+          </Node>
+          <Node name="WZCommonMD" expanded="True">
+            <Node name="DatabaseTableTypes" expanded="True" />
+            <Node name="DataObjects" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="ConnectionManagerPad">
+        <State selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/PFJ/Developer/OpenSpork/iOS/openspork/wowzapp/wowZapp_MA/LaffOutLoud/CameraVideo/CameraTakePictureActivity.cs" line="86" />
+      <Breakpoint file="/Users/PFJ/Developer/OpenSpork/iOS/openspork/wowzapp/wowZapp_MA/LaffOutLoud/Messages/ConversationsUI.cs" line="84" />
+      <Breakpoint file="/Users/PFJ/Developer/OpenSpork/iOS/openspork/wowzapp/wowZapp_MA/LaffOutLoud/Contacts/SelectContactsActivity.cs" line="221" />
+      <Breakpoint file="/Users/PFJ/Developer/OpenSpork/iOS/openspork/wowzapp/wowZapp_MA/LaffOutLoud/Contacts/SelectContactsActivity.cs" line="282" />
+      <Breakpoint file="/Users/PFJ/Developer/OpenSpork/trunk/wowZapp_MA/LaffOutLoud/Video/EditVideo.cs" line="134" />
+      <Breakpoint file="/Users/PFJ/Developer/OpenSpork/trunk/wowZapp_MA/LaffOutLoud/Messages/MessageReceived.cs" line="125" />
+      <Breakpoint file="/Users/PFJ/Developer/OpenSpork/trunk/wowZapp_MA/LaffOutLoud/Messages/MessageReceived.cs" line="137" />
+      <Breakpoint file="/Users/PFJ/Developer/OpenSpork/trunk/wowZapp_MA/LaffOutLoud/Messages/MessageReceived.cs" line="172" />
+      <Breakpoint file="/Users/PFJ/Developer/OpenSpork/trunk/wowZapp_MA/LaffOutLoud/Messages/MessageReceived.cs" line="203" />
+      <Breakpoint file="/Users/PFJ/Developer/OpenSpork/trunk/wowZapp_MA/LaffOutLoud/Messages/MessageReceived.cs" line="662" />
+      <Breakpoint file="/Users/PFJ/Developer/OpenSpork/trunk/wowZapp_MA/LaffOutLoud/Messages/ContentPackItemActivity.cs" line="464" />
+      <Breakpoint file="/Users/PFJ/Developer/OpenSpork/trunk/wowZapp_MA/LaffOutLoud/Messages/ContentPackItemActivity.cs" line="476" />
+      <Breakpoint file="/Users/PFJ/Developer/OpenSpork/trunk/wowZapp_MA/LaffOutLoud/Messages/ComposeMessageMainActivity.cs" line="686" />
+      <Breakpoint file="/Users/PFJ/Developer/OpenSpork/trunk/wowZapp_MA/LaffOutLoud/Messages/ComposeMessageMainActivity.cs" line="188" />
+      <Breakpoint file="/Users/PFJ/Developer/OpenSpork/trunk/wowZapp_MA/LaffOutLoud/Helpers/ImageHelper.cs" line="65" />
+      <Breakpoint file="/Users/PFJ/Developer/OpenSpork/trunk/wowZapp_MA/LaffOutLoud/Helpers/ImageHelper.cs" line="60" />
+      <Breakpoint file="/Users/PFJ/Developer/OpenSpork/trunk/wowZapp_MA/LaffOutLoud/Contacts/SelectContactsActivity.cs" line="308" />
+      <Breakpoint file="/Users/PFJ/Developer/OpenSpork/trunk/wowZapp_MA/LaffOutLoud/Messages/ComposeMessageMainActivity.cs" line="736" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.wowZapp MonoForAntroid.PreferredDevice="4in WVGA (Nexus S)" AndroidDeviceId-Debug="3034D74FC76900EC" AndroidDeviceId-Release="015d2d426b2c1613" />
+</Properties>

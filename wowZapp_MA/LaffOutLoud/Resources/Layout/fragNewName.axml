@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2"
+            android:background="#8e8f8f">
+            <TextView
+                android:text="@string/aboutMeModalCurrentName"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/textView1"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:textColor="#fff"
+                android:background="#8e8f8f" />
+            <TextView
+                android:text="Text"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/textCurrentName"
+                android:textColor="#fff"
+                android:background="#8e8f8f" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/linearLayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:background="#8e8f8f">
+            <TextView
+                android:text="@string/aboutMeModalFirstName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="3dp"
+                android:textColor="#fff"
+                android:background="#8e8f8f" />
+            <EditText
+                android:inputType="textPersonName"
+                android:layout_width="fill_parent"
+                android:layout_height="28dp"
+                android:id="@+id/editFirst"
+                android:textColor="#fff"
+                android:textSize="12dp"
+                android:gravity="left"
+                android:layout_gravity="center_vertical"
+                android:background="#8e8f8f" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout4"
+        android:gravity="center_vertical"
+        android:background="#8e8f8f">
+        <TextView
+            android:text="@string/aboutMeModalLastName"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/textView3"
+            android:textColor="#fff"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="3dp"
+            android:background="#8e8f8f" />
+        <EditText
+            android:inputType="textPersonName"
+            android:layout_width="fill_parent"
+            android:layout_height="28dp"
+            android:id="@+id/editLast"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:background="#8e8f8f" />
+    </LinearLayout>
+</LinearLayout>

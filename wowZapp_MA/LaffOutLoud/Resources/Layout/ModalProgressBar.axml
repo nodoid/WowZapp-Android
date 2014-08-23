@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    style="@style/lightbox_dialog">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical|center_horizontal">
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="250dp"
+            android:layout_height="260dp"
+            android:id="@+id/linearLayout1">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="25dp"
+                android:id="@+id/linearLayout2"
+                android:background="@drawable/alertheaderback">
+                <TextView
+                    android:text="@string/onlineModalTitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/txtItemTitle"
+                    android:textColor="#454545"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="180.7dp"
+                android:id="@+id/linearLayout4"
+                android:background="#8e8f8f"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:text="@string/onlineModalDownloadFor"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtDownloadFor"
+                    android:layout_marginLeft="16.0dp"
+                    android:layout_marginRight="16.0dp"
+                    android:layout_marginTop="35.3dp"
+                    android:textSize="14dp" />
+                <ProgressBar
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pbarDownloadProgress"
+                    android:layout_marginTop="24.0dp"
+                    android:layout_marginRight="16.0dp"
+                    android:layout_marginLeft="16.0dp"
+                    android:max="100" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="15dp"
+                android:id="@+id/linearLayout3"
+                android:background="@drawable/alertbottomback" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    style="@style/lightbox_dialog">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical|center_horizontal">
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="250dp"
+            android:layout_height="300dp"
+            android:id="@+id/linearLayout1">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="25dp"
+                android:id="@+id/linearLayout2"
+                android:background="@drawable/alertheaderback">
+                <TextView
+                    android:text="@string/contactsNewContactTitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/txtItemTitle"
+                    android:textColor="#454545"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="254.7dp"
+                android:id="@+id/linearLayout4"
+                android:background="#8e8f8f"
+                android:gravity="center_horizontal">
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:id="@+id/imgContact"
+                    android:layout_marginTop="5dp"
+                    android:background="#8e8f8f" />
+                <TextView
+                    android:text="Large Text"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtContactName"
+                    android:gravity="center_horizontal"
+                    android:background="#8e8f8f" />
+                <Button
+                    android:text="@string/contactsAcceptContact"
+                    android:layout_width="160dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/btnAccept"
+                    android:textColor="#fff"
+                    android:textSize="14dp"
+                    android:background="@drawable/button"
+                    android:layout_marginTop="5dp" />
+                <Button
+                    android:text="@string/contactsDeclineContact"
+                    android:layout_width="160dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/btnDecline"
+                    android:textColor="#fff"
+                    android:textSize="14dp"
+                    android:background="@drawable/button"
+                    android:layout_marginTop="5dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="15dp"
+                android:id="@+id/linearLayout3"
+                android:background="@drawable/alertbottomback" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

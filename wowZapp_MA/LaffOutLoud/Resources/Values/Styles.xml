@@ -1,0 +1,20 @@
+﻿<resources>
+  <style name="Theme.Splash" parent="android:Theme">
+    <item name="android:windowBackground">@drawable/splashscreen</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:screenOrientation">portrait</item>
+  </style>
+  <style name="lightbox_dialog" parent="@android:style/Theme.Translucent.NoTitleBar">
+    <item name="android:windowAnimationStyle">@style/dialog_animation</item>
+    <item name="android:background">@color/translucent_black</item>
+  </style>
+  <style name="dialog_animation">
+    <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+    <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+  </style>
+  <style name="Theme.Normal" parent="android:Theme">
+    <item name="android:windowBackground">@drawable/background</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:screenOrientation">portrait</item>
+  </style>
+</resources>

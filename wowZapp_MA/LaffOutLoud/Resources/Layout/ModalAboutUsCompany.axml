@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    style="@style/lightbox_dialog">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical|center_horizontal">
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="250dp"
+            android:layout_height="364.0dp"
+            android:id="@+id/linearLayout1">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="25dp"
+                android:id="@+id/linearLayout2"
+                android:background="@drawable/alertheaderback"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/txtItemTitle"
+                    android:textColor="#454545"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="@string/aboutusTitle"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="322.7dp"
+                android:id="@+id/linearLayout4"
+                android:background="#8e8f8f"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:text="@string/aboutusTrendaPublished"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView1"
+                    android:layout_marginLeft="5dp"
+                    android:background="#8e8f8f" />
+                <TextView
+                    android:text="Text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textCompany1"
+                    android:layout_marginLeft="10dp"
+                    android:background="#8e8f8f" />
+                <TextView
+                    android:text="Text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textCompany2"
+                    android:layout_marginLeft="10dp"
+                    android:background="#8e8f8f" />
+                <TextView
+                    android:text="Text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textCompany3"
+                    android:layout_marginLeft="10dp"
+                    android:background="#8e8f8f" />
+                <TextView
+                    android:text="Text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textCompany4"
+                    android:layout_marginLeft="10dp"
+                    android:background="#8e8f8f" />
+                <TextView
+                    android:text="@string/aboutusDeveloped"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView6"
+                    android:layout_marginTop="19.3dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="#8e8f8f" />
+                <TextView
+                    android:text="Text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textDevelop1"
+                    android:layout_marginLeft="10dp"
+                    android:background="#8e8f8f" />
+                <TextView
+                    android:text="Text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textDevelop2"
+                    android:layout_marginLeft="10dp"
+                    android:background="#8e8f8f" />
+                <TextView
+                    android:text="Text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textDevelop3"
+                    android:layout_marginLeft="10dp"
+                    android:background="#8e8f8f" />
+                <TextView
+                    android:text="Text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textDevelop4"
+                    android:layout_marginLeft="10dp"
+                    android:background="#8e8f8f" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearLayout5"
+                    android:layout_marginTop="16.7dp"
+                    android:gravity="center_horizontal"
+                    android:background="#8e8f8f">
+                    <TextView
+                        android:text="@string/aboutusPublishDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/textView11"
+                        android:layout_marginRight="5dp"
+                        android:background="#8e8f8f" />
+                    <TextView
+                        android:text="Text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/textPublishDate"
+                        android:layout_marginLeft="5dp"
+                        android:background="#8e8f8f" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearLayout6"
+                    android:gravity="center_horizontal"
+                    android:background="#8e8f8f">
+                    <TextView
+                        android:text="@string/aboutusVersion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/textView13"
+                        android:layout_marginRight="5dp"
+                        android:background="#8e8f8f" />
+                    <TextView
+                        android:text="Text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/textVersion"
+                        android:layout_marginLeft="5dp"
+                        android:background="#8e8f8f" />
+                </LinearLayout>
+                <Button
+                    android:text="@string/developerButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:id="@+id/btnDevs"
+                    android:background="@drawable/button" />
+                <Button
+                    android:text="@string/developerCloseButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:id="@+id/btnClose"
+                    android:background="@drawable/button" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="15dp"
+                android:id="@+id/linearLayout3"
+                android:background="@drawable/alertbottomback" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
